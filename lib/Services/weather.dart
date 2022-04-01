@@ -6,7 +6,7 @@ import 'networking.dart';
 import 'package:flutter_app/Services/Location.dart';
 
 
-const apiKey = '27a8e9b8c487a494f190aab2cd4ab57d';
+const apiKey = 'api_key'; 
 const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
 
 
@@ -132,7 +132,3 @@ Map paramDropdownIconColor = {
   'Squall':cloudyDayParamDropdownIconColor,
   'Tornado':rainyDayParamDropdownIconColor,
 };
-
-
-
-//https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=27a8e9b8c487a494f190aab2cd4ab57d&units=metric
